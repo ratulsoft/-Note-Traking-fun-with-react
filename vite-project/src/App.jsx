@@ -2,6 +2,7 @@ import { useState } from "react"
 
 
 function App() {
+  console.log("hello")
   const [notetraking, setnotetraking] = useState("");  
   const [note, setnote] = useState([]);
 
